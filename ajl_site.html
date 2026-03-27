@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AJL Métodos</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:linear-gradient(180deg,#071c2c,#0c2c44);
+min-height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+color:white;
+}
+
+.container{
+width:90%;
+max-width:420px;
+text-align:center;
+}
+
+.logo{
+width:180px;
+margin-bottom:15px;
+animation:flutuar 3s ease-in-out infinite;
+}
+
+@keyframes flutuar{
+0%{transform:translateY(0px)}
+50%{transform:translateY(-8px)}
+100%{transform:translateY(0px)}
+}
+
+h1{
+color:#d4a23a;
+font-size:28px;
+margin-bottom:5px;
+}
+
+.sub{
+font-size:14px;
+color:#cfcfcf;
+margin-bottom:30px;
+}
+
+.link{
+display:block;
+padding:16px;
+margin:12px 0;
+border-radius:15px;
+background:linear-gradient(90deg,#d4a23a,#b8862e);
+color:#071c2c;
+text-decoration:none;
+font-weight:600;
+font-size:15px;
+box-shadow:0 6px 15px rgba(0,0,0,0.4);
+transition:0.25s;
+position:relative;
+overflow:hidden;
+}
+
+.link:hover{
+transform:scale(1.05);
+}
+
+.link:before{
+content:'';
+position:absolute;
+top:0;
+left:-100%;
+width:100%;
+height:100%;
+background:linear-gradient(120deg,transparent,rgba(255,255,255,0.4),transparent);
+transition:0.6s;
+}
+
+.link:hover:before{
+left:100%;
+}
+
+.social{
+margin-top:25px;
+}
+
+.social a{
+margin:0 10px;
+font-size:22px;
+color:#d4a23a;
+text-decoration:none;
+transition:0.3s;
+}
+
+.social a:hover{
+transform:scale(1.2);
+}
+
+.footer{
+margin-top:25px;
+font-size:12px;
+opacity:0.6;
+}
+</style>
+
+<script src="https://kit.fontawesome.com/4ad53f4c8a.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<img src="AJL.jpeg" class="logo">
+
+<h1>AJL Métodos</h1>
+
+<p class="sub">
+Oportunidades, produtos virais e renda online 🚀
+</p>
+
+<a class="link" href="https://www.tiktok.com/@ajlmetodos" target="_blank">
+🎥 TikTok Oficial
+</a>
+
+<a class="link" href="https://www.instagram.com/ajlfromt2026?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+📸 Instagram Oficial
+</a>
+
+<a class="link" href="https://www.tiktok.com/@ajlmetodos" target="_blank">
+🛍 TikTok Shop
+</a>
+
+<a class="link" href="#">
+📦 Ofertas Amazon
+</a>
+
+<a class="link" href="#">
+🔥 Promoções Mercado Livre
+</a>
+
+<div class="social">
+
+<a href="https://www.instagram.com/ajlfromt2026?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+<i class="fab fa-instagram"></i>
+</a>
+
+<a href="https://www.tiktok.com/@ajlmetodos" target="_blank">
+<i class="fab fa-tiktok"></i>
+</a>
+
+</div>
+
+<div class="footer">
+© AJL Métodos
+</div>
+
+</div>
+
+</body>
+</html>
